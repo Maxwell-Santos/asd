@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  * {
+    @apply font-Inter scroll-smooth
+  }
+
+  body {
+    @apply max-w-[1500px] mx-auto text-[18px]
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl
+  }
+
+  header {
+    @apply w-full p-4 flex justify-center sticky top-0 z-50 bg-white/10 backdrop-blur-md border-b border-gray-200 hidden text-gray-800 font-light
+  }
+
+  header nav {
+    @apply flex items-center
+  }
+
+  header nav a {
+    @apply ml-2 p-1 px-2 hover:bg-accent/50 transition-all rounded-md text-center
+  }
+
+  section,
+  footer {
+    @apply px-8 min-[900px]:px-20
+  }
+
+  footer {
+    @apply bg-footer text-gray-300 py-10 text-base flex flex-wrap items-start justify-between mt-20
+  }
+
+  footer #email {
+    @apply bg-transparent border outline-none p-2 pl-[40px] mr-3
+  }
+
+  footer .email-content {
+    @apply flex items-center relative font-light
+  }
+
+  footer .email-content button {
+    @apply bg-button-primary hover:bg-button-primary-h p-3
+  }
+}
+
+@layer components {
+  #hero {
+    @apply h-screen max-h-[768px] max-[600px]:text-center
+  }
+
+  #hero h1 {
+    @apply text-5xl font-extrabold leading-tight text-title-p
+  }
+
+  #hero h1 span {
+    @apply text-title-s
+  }
+
+  #hero p {
+    @apply text-xl mt-5 mb-14 font-medium
+  }
+
+  #hero img {
+    @apply mx-auto
+  }
+
+  .content {
+    @apply flex-1
+  }
+
+  .content .content-info {
+    @apply text-lg leading-relaxed mt-4
+  }
+
+  /*sessão processo de criação*/
+  #creation-process ol {
+    @apply space-y-14
+  }
+
+  #creation-process ol li {
+    @apply relative
+  }
+
+  #creation-process ol li span {
+    @apply absolute top-1/2 -translate-y-1/2 right-0 text-8xl font-extrabold -z-20 text-accent opacity-30
+  }
+
+  /*principais serviços */
+  #services .article {
+    @apply p-6 text-white rounded-xl mt-2 shadow-md
+  }
+
+  #services .article h4 {
+    @apply text-2xl font-bold mb-3
+  }
+
+  /*estilo global das seções*/
+  #creation-process,
+  #services,
+  #projects {
+    @apply mt-20
+  }
+
+  /*processo de orçamento*/
+
+  #budget {
+    @apply bg-accent text-white p-10 max-[320px]:px-2 rounded-2xl mt-20 max-[425px]:text-center
+  }
+
+  #budget h2 {
+    @apply uppercase font-extrabold text-4xl
+  }
+
+  #budget p {
+    @apply mt-5 mb-10
+  }
+
+  /*footer midias sociais*/
+  .social-medias .media{
+    @apply flex gap-2 mt-5 items-center
+  }
+}
