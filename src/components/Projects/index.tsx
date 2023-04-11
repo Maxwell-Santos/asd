@@ -1,32 +1,7 @@
 import { useEffect, useState } from "react"
+import contentProjects from "./projects.json"
 
 export function Projects() {
-  const content_projects = [
-    {
-      title: "salão de beleza",
-      img: "./projects-img/salao.png",
-      link: "https://salon-beta.vercel.app/",
-      info: "Site pensado em um salão de beleza onde mostra um pouco sobre os profissionais e como funciona o salão, além de horários em funcionamento e área para agendamento."
-    },
-    {
-      title: "desing de interiores",
-      img: "./projects-img/designer.png",
-      link: "https://dsinside.vercel.app/",
-      info: "Um site institucional com área de e-commerce sobre design de interiores, a ideia é ser um site para pessoas que buscam móveis bonitos ou sessão para fazer o design da sua casa, por exemplo."
-    },
-    {
-      title: "portfólio fotógrafo",
-      img: "./projects-img/portfolio-fotografo.png",
-      link: "https://galeria-natureza.vercel.app/",
-      info: "Esse é o portfólio de um fotógrafo da natureza. O site tem suas fotos, um pouco sobre quem tirou a foto e área de contato."
-    },
-    {
-      title: "cardápio de padaria",
-      img: "./projects-img/cardapio.png",
-      link: "https://digitalmenu-maxwell-santos.vercel.app/",
-      info: "Um cardápio digital para ser usado dentro do própio recinto. Com isso, você faria o pedido do seu celular, e ja chegaria na sua mesa, sem precisar gritar ninguém para anotar o seu pedido. Ideal para lugares com muito movimento."
-    },
-  ]
 
   const [width, setWidth] = useState(0)
 
@@ -45,7 +20,7 @@ export function Projects() {
         width >= 640 ? (
           <div className="grid grid-cols-1 grid-rows-auto md:grid-cols-2 md:grid-rows-2 gap-3 mt-10">
             {
-              content_projects.map(item => (
+              contentProjects.map(item => (
                 <ProjectDesktopLayout
                   title={item.title}
                   img={item.img}
@@ -58,7 +33,7 @@ export function Projects() {
         ) : (
           <div className="flex flex-col gap-10 mt-10">
             {
-              content_projects.map(item => (
+              contentProjects.map(item => (
                 <ProjectMobileLayout
                   title={item.title}
                   img={item.img}
@@ -90,7 +65,7 @@ const ProjectDesktopLayout = ({ title, img, link, info }: ProjectProps) => {
         <img src={img} alt={"img do projeto" + title} className="object-cover w-full h-full" loading='lazy' />
         <h4 className="
         uppercase font-extrabold text-3xl absolute group-hover:bottom-[40%] left-5 bottom-20 bg-clip-text
-        bg-white group-hover:bg-gradient-to-r group-hover:to-[#0046f7] group-hover:from-[#03C988] group-hover:text-4xl transition-all duration-500 drop-shadow-sm
+        bg-white group-hover:bg-gradient-to-r group-hover:to-[#00b679] group-hover:from-[#0098EF] group-hover:text-4xl transition-all duration-500 drop-shadow-sm
         ">
           {title}
         </h4>

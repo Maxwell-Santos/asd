@@ -1,4 +1,4 @@
-import { DesingConversion } from "./DesingConversion";
+import { DesignConversion } from "./DesignConversion";
 
 export function MainServices() {
 
@@ -13,14 +13,14 @@ export function MainServices() {
           <p>
             O E- commerce é uma página de vendas, onde você coloca seus produtos, preços, img, descrição e o seu cliente pode efetuar a compra online.
             <br />
-            A vantagem de ter sua loja online, é que a pessoa consegue te achar de qualquer lugar, e saber todas as informações nesserárias para ela pode fazer a compra.
+            A vantagem de ter sua loja online, é que a pessoa consegue te achar de qualquer lugar, e saber todas as informações necessárias para ela pode fazer a compra.
           </p>
         </article>
         <article className="flex-1 bg-gradient-to-b from-orange-300 to-orange-400 article">
           <h4>Portfólio</h4>
 
           <p>
-            O Portifólio, é um site que você coloca suas experiências, e tudo mais, afim de vender sua imagem, é muito comum, pessoas como: empresário, advogado, autônomo, terem portifólio.
+            O Portfólio, é um site que você coloca suas experiências, e tudo mais, afim de vender sua imagem, é muito comum, pessoas como: empresário, advogado, autônomo, terem portfólio.
           </p>
         </article>
       </div>
@@ -32,7 +32,7 @@ export function MainServices() {
           <p>
             Cardápio online para delivery ou não.
             <br />
-            Por exemplo: você tem uma pizzaria que possue muitos sabores de pizza, ao invés de pagar uma taxa para o ifood, e ter seu negócio no meo de muitos. Eu desenvolvo o seu cardápio pessoal.
+            Por exemplo: você tem uma pizzaria que possui muitos sabores de pizza, ao invés de pagar uma taxa para o IFood, e ter seu negócio no meio de muitos. Eu desenvolvo o seu cardápio pessoal.
           </p>
         </article>
         <article className="flex-[1.2] bg-gradient-to-b from-violet-400 to-violet-500 article">
@@ -46,7 +46,7 @@ export function MainServices() {
         </article>
       </div>
 
-      <DesingConversion />
+      <DesignConversion />
     </section>
   )
 }

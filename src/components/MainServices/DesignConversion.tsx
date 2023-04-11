@@ -1,7 +1,7 @@
-import conversion from '../../assets/conversion.svg'
+import conversion from '../../assets/conversion/conversion.svg'
 import { ButtonAction } from '../ButtonAction'
 
-export function DesingConversion() {
+export function DesignConversion() {
   return (
     <div className="mt-10 flex gap-10 justify-between items-center">
       <div className="flex-[1.2] md:max-w-[550px] flex flex-col">

@@ -1,4 +1,4 @@
-import creation from '../../assets/Visual data-cuate.svg'
+import creation from '../../assets/creation-process/creation.svg'
 import { ButtonAction } from '../ButtonAction'
 
 export function CreationProcess() {
@@ -15,15 +15,15 @@ export function CreationProcess() {
         <div className='flex-1 mt-10'>
           <ol>
             <li>
-              Numa conversa, vamos discutir sobre o que você espera do site, alguma inspiração, sessões e quem é o seu público alvo.
+              Numa conversa, vamos discutir sobre o que você espera do site, inspirações, sessões do site e quem é o seu público alvo.
               <span>01</span>
             </li>
             <li>
-              Eu procuro figuras e imagens que têm o mesmo contexto que o seu público alvo, e você também pode trazer algumas referências para incluir no seu site.
+              Você traz algumas referências para incluir no seu site, como imagens. E eu também procuro alguma como inspiração para o processo criativo.
               <span>02</span>
             </li>
             <li>
-              E por fim, vou desenvolver um design UNICO e EXCLUSIVO, para você, com toda a estrutura criada por mim.
+              Até o momento estava acumulando informações, e agora começarei o desenvolvimento da página de fato do um design <strong className='text-title-s'>ÚNICO</strong> e <strong className='text-title-s'>EXCLUSIVO.</strong>
               <span>03</span>
             </li>
           </ol>

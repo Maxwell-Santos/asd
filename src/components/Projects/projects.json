@@ -1,0 +1,26 @@
+[
+  {
+    "title": "salão de beleza",
+    "img": "./projects-img/salao.png",
+    "link": "https://salon-beta.vercel.app/",
+    "info": "Site pensado em um salão de beleza onde mostra um pouco sobre os profissionais e como funciona o salão, além de horários em funcionamento e área para agendamento."
+  },
+  {
+    "title": "design de interiores",
+    "img": "./projects-img/designer.png",
+    "link": "https://dsinside.vercel.app/",
+    "info": "Um site institucional com área de e-commerce sobre design de interiores, a ideia é ser um site para pessoas que buscam móveis bonitos ou sessão para fazer o design da sua casa, por exemplo."
+  },
+  {
+    "title": "portfólio fotógrafo",
+    "img": "./projects-img/portfolio-fotografo.png",
+    "link": "https://galeria-natureza.vercel.app/",
+    "info": "Esse é o portfólio de um fotógrafo da natureza. O site tem suas fotos, um pouco sobre quem tirou a foto e área de contato."
+  },
+  {
+    "title": "cardápio de padaria",
+    "img": "./projects-img/cardapio.png",
+    "link": "https://digitalmenu-maxwell-santos.vercel.app/",
+    "info": "Um cardápio digital para ser usado dentro do próprio recinto. Com isso, você faria o pedido do seu celular, e ja chegaria na sua mesa, sem precisar gritar ninguém para anotar o seu pedido. Ideal para lugares com muito movimento."
+  }
+]

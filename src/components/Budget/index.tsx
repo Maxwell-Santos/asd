@@ -1,4 +1,4 @@
-import budget_img from '../../assets/budget.svg'
+import budget_img from '../../assets/budget/budget.svg'
 import { ButtonAction } from '../ButtonAction'
 
 export function Budget() {

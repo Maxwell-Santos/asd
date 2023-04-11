@@ -1,18 +1,14 @@
 import sections from './sections.json'
 
-import presencaOnline from '../../assets/presenca-online.gif'
-import infoCliente from '../../assets/info-cliente.gif'
-import aumentoVendas from '../../assets/aumento-vendas.gif'
-import credibilidade from '../../assets/credibilidade.gif'
-import marketing from '../../assets/marketing.gif'
+import presencaOnline from '../../assets/sections/www.gif'
+import infoCliente from '../../assets/sections/info-cliente.gif'
+import aumentoVendas from '../../assets/sections/aumento-vendas.gif'
+import credibilidade from '../../assets/sections/credibilidade.gif'
+import marketing from '../../assets/sections/Mobile Marketing.gif'
 
 import { ButtonAction } from '../ButtonAction'
 
-import { useEffect } from 'react'
-
 import '@splidejs/react-splide/css'
-
-import Rellax from 'rellax'
 
 export function Sections() {
   const section_content = [ presencaOnline, infoCliente, aumentoVendas, credibilidade, marketing ]
@@ -20,16 +16,10 @@ export function Sections() {
   //verifica se é impar ou par o index do elemento
   //uso essa informação para ir alternando a direção do conteúdo da sessão
   /**
-   *se for impar:
-    a imagem fica na esquerda e o título é azul.
-    se for par: 
-    a imagem fica na direita e o título é verde.
+   *se for impar: a imagem fica na esquerda e o título é azul.
+    se for par: a imagem fica na direita e o título é verde.
    */
   const checkOddEven = (indexOfSection: number) => indexOfSection % 2 == 0
-
-  useEffect(() => {
-    new Rellax(".rellax")
-  }, [])
 
   return (
     <>
