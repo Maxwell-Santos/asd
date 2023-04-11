@@ -44,7 +44,7 @@
   }
 
   #hero h1 {
-    @apply text-4xl md:text-5xl font-extrabold leading-tight text-title-p
+    @apply text-5xl font-extrabold leading-tight text-title-p
   }
 
   #hero h1 span {

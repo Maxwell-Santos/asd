@@ -1,3 +1,5 @@
+import './background-animate.css'
+
 interface ButtonActionProps {
   text: string,
   isBudget?: boolean,
@@ -31,7 +33,7 @@ export function ButtonAction({ text, isBudget, blue }: ButtonActionProps) {
     return (
       <a
         href="https://api.whatsapp.com/send?phone=5511977761749&text=Me%20interessei%20pelo%20seu%20trabalho%2C%20vamos%20conversar%20%3F"
-        className={`${defaultStyle} text-center w-full sm:w-fit`}>
+        className={`button-action ${defaultStyle} text-center w-full sm:w-fit hover:-translate-y-1`}>
         <span>{text}</span>
       </a>
     )

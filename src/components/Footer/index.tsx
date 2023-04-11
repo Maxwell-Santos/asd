@@ -8,7 +8,7 @@ export function Footer() {
           autor: <strong>Maxwell Alves dos Santos</strong>
         </span>
         <span className="block">
-          portfólio: <a href="https://maxwellads.vercel.app" className="underline">maxwellads.vercel.app</a>
+          portfólio: <a href="https://maxwellads.vercel.app" target="_blank" className="underline">maxwellads.vercel.app</a>
         </span>
         <span className="block">
           email: <a href="mailto:max.coding011@gmail.com" className="underline">max.coding011@gmail.com</a>
@@ -18,6 +18,7 @@ export function Footer() {
         </span>
         <a
         href="https://www.freepik.com/author/stories"
+        target="_blank"
         className="my-4 block underline"
         >
           Image by storyset on Freepik</a>
@@ -38,7 +39,7 @@ export function Footer() {
 
           <a href="https://www.linkedin.com/in/maxwell-santos-2ab722210/" className="media">
             <img src="./social-icons/linkedin-icon.svg" alt="icon linkedin" width={24}/>
-            <span>Meu Linkedin</span>
+            <span>Meu LinkedIn</span>
           </a>
         
         </div>
@@ -48,7 +49,7 @@ export function Footer() {
 
       <div className="bg-accent text-center p-2 text-sm">
         <span>
-        &copy; Todos os direitos reservados ao <a href="https://maxwellads.vercel.app" className="underline">Maxwell A. dos Santos</a>
+        &copy; Todos os direitos reservados ao <a href="https://maxwellads.vercel.app" target="_blank" className="underline">Maxwell Alves dos Santos</a>
         </span>
       </div>
     </>

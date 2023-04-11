@@ -88,7 +88,7 @@ const ProjectMobileLayout = ({ title, img, link, info }: ProjectProps) => {
 
         <p className="text-base">{info}</p>
 
-        <a href={link} className="mt-6 p-2 py-3 bg-accent text-gray-200 font-bold text-lx text-center rounded-lg">ver projeto</a>
+        <a href={link} className="mt-6 p-2 py-3 bg-accent text-white font-semibold text-lx text-center rounded-lg uppercase">ver projeto</a>
       </div>
     </div>
   )
